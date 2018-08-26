@@ -1,0 +1,126 @@
+---
+swagger: "2.0"
+x-collection-name: Microsoft Office 365
+x-complete: 1
+info:
+  title: Microsoft Office 365
+  description: office-365-is-the-brand-name-used-by-microsoft-for-a-group-of-software-plus-services-subscriptions-that-provides-productivity-software-and-related-services-to-its-subscribers-
+  version: 1.0.0
+host: outlook.office365.com
+basePath: /ews/odata/Me
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
+paths:
+  /Calendar:
+    get:
+      summary: Get Calendar
+      description: Retrieve information about the default calendar by using the...
+      operationId: getCalendar
+      x-api-path-slug: calendar-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Calendar
+  /Calendars{calendar_id}:
+    get:
+      summary: Get Calendars Calendar
+      description: You can also retrieve information about a specific calendar ...
+      operationId: getCalendarsCalendar
+      x-api-path-slug: calendarscalendar-id-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Calendars
+      - Calendar
+    delete:
+      summary: Delete Calendars Calendar
+      description: Deleting a calendar is as simple as sending a DELETE request...
+      operationId: deleteCalendarsCalendar
+      x-api-path-slug: calendarscalendar-id-delete
+      responses:
+        200:
+          description: OK
+      tags:
+      - Calendars
+      - Calendar
+    patch:
+      summary: Patch Calendars Calendar
+      description: You can update a calendar by sending a PATCH request with a ...
+      operationId: patchCalendarsCalendar
+      x-api-path-slug: calendarscalendar-id-patch
+      parameters:
+      - in: body
+        name: body
+        description: (Untitled)
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Calendars
+      - Calendar
+    parameters:
+      summary: Parameters Calendars Calendar
+      description: Parameters calendars calendar
+      operationId: parametersCalendarsCalendar
+      x-api-path-slug: calendarscalendar-id-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Calendars
+      - Calendar
+  /Calendars{calendar_id}/Events:
+    get:
+      summary: Get Calendars Calendar Events
+      description: You can request all the events across all calendars (or a fi...
+      operationId: getCalendarsCalendarEvents
+      x-api-path-slug: calendarscalendar-idevents-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Calendars
+      - Calendar
+      - ""
+      - Events
+    post:
+      summary: Add Calendars Calendar Events
+      description: Post calendars calendar  events
+      operationId: postCalendarsCalendarEvents
+      x-api-path-slug: calendarscalendar-idevents-post
+      parameters:
+      - in: body
+        name: body
+        description: (Untitled)
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Calendars
+      - Calendar
+      - ""
+      - Events
+    parameters:
+      summary: Parameters Calendars Calendar Events
+      description: Parameters calendars calendar  events
+      operationId: parametersCalendarsCalendarEvents
+      x-api-path-slug: calendarscalendar-idevents-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Calendars
+      - Calendar
+      - ""
+      - Events
+---
