@@ -1,27 +1,16 @@
 ---
 name: Aladtec
-description: Aladtec is the company behind EMS Manager and FIRE Manager, industry-leading
-  software-as-a-service engineered for public safety agencies.  First developed in
-  2002, EMS Manager is the online employee scheduling and workforce management home
-  for over 50,000 unique users in over 800 companies in North America.nnUsing state-of-the-art
-  cloud technology, Aladtecs products provide an integrated platform for scheduling,
-  time and attendance, certification tracking, payroll reporting and other tools for
-  effective workforce optimization.nnIn early 2011, Aladtec released Zanager which
-  brings the same online employee scheduling platform to businesses of all sizes.nnAladtec
-  is based in Hudson, Wisconsin, just across the St. Croix River from the greater
-  Twin Cities area.
-image: http://pbs.twimg.com/profile_images/638361583391870976/1idExIub_normal.png
+x-slug: aladtec
+description: 'Aladtecs system is an affordable subscription based online employee
+  scheduling and workforce management system.  Thousands use our system throughout
+  a variety of industries, including:   EMS  FIRE & Rescue  Law Enforcement  Dispatch  Security  Healthc...'
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/326-aladtec.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Workforce Management
-- Stack Network
-- Scheduling
-- Office
-- Calendar
-created: "2018-02-24"
-modified: "2018-02-24"
-url: https://raw.githubusercontent.com/streamdata-gallery/calendar/master/_listings/aladtec/apis.yaml
+x-alexaRank: "93372"
+tags: Calendar
+created: "2018-08-25"
+modified: "2018-08-25"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/calendar/master/_listings/aladtec/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
@@ -32,9 +21,17 @@ x-common:
 - type: x-blog-rss
   url: http://aladtec.blogspot.com/feeds/posts/default?alt=rss
 - type: x-crunchbase
+  url: https://crunchbase.com/organization/aladtec
+- type: x-crunchbase
   url: http://www.crunchbase.com/company/aladtec
 - type: x-developer
   url: http://www.aladtec.com/vendor_api.php
+- type: x-documentation
+  url: https://www.aladtec.com/api_docs.html
+- type: x-email
+  url: info@aladtec.com
+- type: x-email
+  url: support@aladtec.com
 - type: x-twitter
   url: https://twitter.com/aladtec
 - type: x-website
