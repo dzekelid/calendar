@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Xignite
 x-complete: 1
@@ -14,4 +13,41 @@ produces:
 - application/json
 consumes:
 - application/json
----
+paths:
+  /GetIPOCalendar:
+    get:
+      summary: Get IPO Calendar
+      description: Post getipocalendar
+      operationId: GetIPOCalendar
+      x-api-path-slug: getipocalendar-get
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Market Data
+      - IPO
+      - Calendar
+  /GetIPOCalendarByExchange:
+    get:
+      summary: Get IPO Calendar By Exchange
+      description: Post getipocalendarbyexchange
+      operationId: GetIPOCalendarByExchange
+      x-api-path-slug: getipocalendarbyexchange-get
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Market Data
+      - IPO
+      - Calendar
+      - Exchange

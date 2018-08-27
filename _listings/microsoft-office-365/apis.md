@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Calendar
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/calendar/master/_listings/microsoft-office-365/apis.md
 specificationVersion: "0.14"
 apis:
@@ -51,6 +51,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/calendar/master/_listings/microsoft-office-365/calendarscalendar-id-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/calendar/master/_listings/microsoft-office-365/calendarscalendar-id-delete-openapi.md
+- name: Microsoft Office 365 - Patch Calendars Calendar
+  x-api-slug: calendarscalendar-id-patch
+  description: You can update a calendar by sending a PATCH request with a ...
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-office.png
+  humanURL: http://office.com
+  baseURL: https://outlook.office365.com//ews/odata/Me
+  tags: Spreadsheets, Documents, Stack Network, Stack, Productivity, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/calendar/master/_listings/microsoft-office-365/calendarscalendar-id-patch-openapi.md
 - name: Microsoft Office 365 - Parameters Calendars Calendar
   x-api-slug: calendarscalendar-id-parameters
   description: Parameters calendars calendar
@@ -77,6 +88,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/calendar/master/_listings/microsoft-office-365/calendarscalendar-idevents-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/calendar/master/_listings/microsoft-office-365/calendarscalendar-idevents-get-openapi.md
+- name: Microsoft Office 365 - Add Calendars Calendar Events
+  x-api-slug: calendarscalendar-idevents-post
+  description: Post calendars calendar  events
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-office.png
+  humanURL: http://office.com
+  baseURL: https://outlook.office365.com//ews/odata/Me
+  tags: Spreadsheets, Documents, Stack Network, Stack, Productivity, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/calendar/master/_listings/microsoft-office-365/calendarscalendar-idevents-post-openapi.md
 - name: Microsoft Office 365 - Parameters Calendars Calendar Events
   x-api-slug: calendarscalendar-idevents-parameters
   description: Parameters calendars calendar  events
